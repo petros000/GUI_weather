@@ -6,7 +6,7 @@ class Weather:
     URL_BASE = 'https://api.openweathermap.org//data//2.5//'
 
     def __init__(self, city_name, country_code=''):
-        print(city_name)
+        #print(city_name)
         self.city_name = 'Moscow'
         self.country_code = 'RU'
 
